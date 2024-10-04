@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #BCD3F2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.choice {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.choice img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.choice img:hover {
+    opacity: 0.8;
+
+}
+
+.choice:hover {
+    background-color: rgba(255, 255, 0, 0.2);
+
+}
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.your-score,
+.computer-score {
+    font-size: 3rem;
+}
+
+.msg-container p {
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: rgb(189, 212, 126);
+    text-align: center;
+    display: inline;
+    border-radius: 1rem;
+}
