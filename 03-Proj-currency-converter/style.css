@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #bcd3f2;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
