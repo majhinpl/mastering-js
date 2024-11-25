@@ -1,0 +1,40 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbfcf8;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.box {
+  height: 100x;
+  width: 120px;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid goldenrod;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.para {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.para-newClass {
+  background-color: #73db12;
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: #fbfcf8;
+  color: black;
+}
